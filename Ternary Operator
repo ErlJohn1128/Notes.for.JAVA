@@ -1,0 +1,52 @@
+Ternary Operator
+- Like a if-else-then but a shorter and efficient method
+
+// dataType variableName = (condition) ? ifTrue : ifFalse;
+
+Examples:
+
+//In Calculation
+double dailyWage = 500;
+
+double taxRate = (dailyWage >= 700) ? (dailyWage * 0.05) : (dailyWage * 0.02);
+System.out.print(taxRate);
+
+Expected output: 10
+
+//In Printing
+int number = -4
+
+String negativeOrPositive = (number > 0) ? "Positive Number" : "Negative Number";
+System.out.print(negativeOrPostive);
+
+Output: Negative Number
+
+Substring Method
+- A mathod used to extract a portion of a string
+
+// String variable = variableThatIsString.substring(start, end);
+
+Examples:
+
+//Gmail Separator
+String email = "exampleEmail@yahoo.com";
+
+String domain = email.substring(email.indexOf("@") + 10;
+String name = email.substring(0, email.indexOf("@");
+
+System.out.println(domain);
+System.out.println(name);
+
+Output: yahoo.com
+        exampleEmail
+
+//First 5 letters
+String name = "ABDCEF";
+
+String firstFive = name.substring(0, 4);
+
+System.out.print(firstFive);
+
+Output: ABCDE
+
+
