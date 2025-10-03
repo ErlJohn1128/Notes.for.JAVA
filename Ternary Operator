@@ -20,33 +20,3 @@ String negativeOrPositive = (number > 0) ? "Positive Number" : "Negative Number"
 System.out.print(negativeOrPostive);
 
 Output: Negative Number
-
-Substring Method
-- A mathod used to extract a portion of a string
-
-// String variable = variableThatIsString.substring(start, end);
-
-Examples:
-
-//Gmail Separator
-String email = "exampleEmail@yahoo.com";
-
-String domain = email.substring(email.indexOf("@") + 10;
-String name = email.substring(0, email.indexOf("@");
-
-System.out.println(domain);
-System.out.println(name);
-
-Output: yahoo.com
-        exampleEmail
-
-//First 5 letters
-String name = "ABDCEF";
-
-String firstFive = name.substring(0, 4);
-
-System.out.print(firstFive);
-
-Output: ABCDE
-
-
